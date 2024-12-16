@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import WelcomeMessage from './WelcomeMessage';
+import ToggleVisibility from './ToggleVisibility';
+import UserStatus from './UserStatus';
+import ShowComments from './ShowComments';
+import AdminControls from './AdminControls';
+import ProductStatus from './ProductStatus';
+import WarningNotification from './WarningNotification';
+import DarkModeToggle from './DarkModeToggle';
+import SubscribeButton from './SubscribeButton';
+import MoreInfo from './MoreInfo';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WelcomeMessage />
+      <ToggleVisibility />
+      <UserStatus />
+      <ShowComments />
+      <AdminControls />
+      <ProductStatus />
+      <WarningNotification />
+      <DarkModeToggle />
+      <SubscribeButton />
+      <MoreInfo />
+      <Portfolio />
     </div>
   );
 }
